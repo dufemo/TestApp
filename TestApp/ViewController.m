@@ -24,4 +24,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)testButtonAction:(UIButton *)sender {
+    UIAlertView *alrtView = [[UIAlertView alloc] initWithTitle:@"Test result" message:@"Test ok!" delegate:nil cancelButtonTitle:@"Test is finished" otherButtonTitles: nil];
+    
+    [alrtView show];
+}
+
 @end
